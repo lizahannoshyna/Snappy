@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?3kt289');
-  src:  url('fonts/icomoon.eot?3kt289#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?3kt289') format('truetype'),
-    url('fonts/icomoon.woff?3kt289') format('woff'),
-    url('fonts/icomoon.svg?3kt289#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?uurf6h');
+  src:  url('fonts/icomoon.eot?uurf6h#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?uurf6h') format('truetype'),
+    url('fonts/icomoon.woff?uurf6h') format('woff'),
+    url('fonts/icomoon.svg?uurf6h#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,51 +25,48 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-icon-add:before {
+.icon-add:before {
   content: "\e900";
 }
-.icon-icon-apps:before {
+.icon-apps:before {
   content: "\e901";
 }
-.icon-icon-delete:before {
+.icon-calendar:before {
   content: "\e902";
 }
-.icon-icon-favorite:before {
+.icon-create-folder:before {
+  content: "\e903";
+}
+.icon-delete:before {
   content: "\e904";
 }
-.icon-icon-moon:before {
+.icon-favorite:before {
   content: "\e905";
 }
-.icon-icon-note:before {
+.icon-list-bulleted:before {
   content: "\e906";
 }
-.icon-icon-schedule:before {
+.icon-moon:before {
   content: "\e907";
 }
-.icon-icon-search:before {
+.icon-note:before {
   content: "\e908";
 }
-.icon-icon-settings:before {
+.icon-schedule:before {
   content: "\e909";
 }
-.icon-icon-sun:before {
+.icon-search:before {
   content: "\e90a";
 }
-.icon-icon-upload:before {
+.icon-settings:before {
   content: "\e90b";
 }
-.icon-icon-user-acc:before {
+.icon-sun:before {
   content: "\e90c";
 }
-.icon-icon-apps1:before {
+.icon-upload:before {
   content: "\e90d";
 }
-.icon-icon-calendar:before {
+.icon-user-acc:before {
   content: "\e90e";
-}
-.icon-icon-create-folder:before {
-  content: "\e90f";
-}
-.icon-format-list-bulleted_icon:before {
-  content: "\e903";
 }
