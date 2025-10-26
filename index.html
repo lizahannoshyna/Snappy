@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Snappy</title>
+    <link rel="stylesheet" href="./fonts/Montserrat_Alternates/MontserratAlternates-Regular.ttf" />
+    <link rel="stylesheet" href="./icon.css" />
+    <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+    <!-- бургер меню -->
+    <input type="checkbox" id="sidebar_toggle" />
+    <label for="sidebar_toggle">  <!--for - при використанні на <label>елементі він вказує на елемент форми, який описує ця мітка. -->
+        <span></span>
+    </label>
+
+    <!-- sidebar -->
+    <aside class="sidebar">
+        <h3 class="sidebar_title">SNAPPY</h3>
+        <!-- sidebar content -->
+        <ul class="sidebar_content">
+            <li>
+                <a href="#" class="content_item">
+                    <i class="icon-icon-note"></i> <span>Note</span>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="content_item">
+                    <i class="icon-icon-calendar"></i> <span>Calendar</span>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="content_item">
+                    <i class="icon-icon-settings"></i> <span>Settings</span>
+                </a>
+            </li>
+        </ul>
+    </aside>
+
+    <!-- MAIN CONTENT -->
+    <header class="header">
+        <div class="container header_wrp">
+            <h2 class="header_title">SNAPPY</h2>
+            <input type="text" id="search-input" placeholder="Search..." />
+            <!-- switch -->
+            <label class="switch" for="">
+                <input type="checkbox" name="" id="theme_switch" />
+                <span class="swith_slider round"></span>
+            </label>
+            <!-- user acc -->
+            <div class="user-acc_wrp">
+                <i class="icon-icon-user-acc"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- MAIN -->
+    <main>
+            <section class="notes">
+                <div class="container">
+                </div>
+            </section>
+    </main>
+</body>
+</html>

@@ -1,0 +1,11 @@
+@font-face {
+    font-family: "Montserrat Alternates", sans-serif;
+    src: url('./fonts/Montserrat_Alternates/MontserratAlternates-Regular.ttf');
+    src: url('./fonts/Montserrat_Alternates/MontserratAlternates-Black.ttf');
+}
+
+body{
+    font-family: "Montserrat Alternates", sans-serif;
+}
+
+
