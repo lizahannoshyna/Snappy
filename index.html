@@ -5,7 +5,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Snappy</title>
-    <link rel="stylesheet" href="./fonts/Montserrat_Alternates/MontserratAlternates-Regular.ttf" />
     <link rel="stylesheet" href="./icon.css" />
     <link rel="stylesheet" href="./style.css" />
 </head>
@@ -44,12 +43,22 @@
     <header class="header">
         <div class="container header_wrp">
             <h2 class="header_title">SNAPPY</h2>
-            <input type="text" id="search-input" placeholder="Search..." />
+
+            <!-- input -->
+             <div class="search-input-wrp">
+                <i class="icon-search search-btn"></i>
+                <input type="text" id="search-input" placeholder="Search..." />
+             </div>
+            
             <!-- switch -->
-            <label class="switch" for="">
-                <input type="checkbox" name="" id="theme_switch" />
-                <span class="swith_slider round"></span>
-            </label>
+            <div class="switch_container">
+                <input type="checkbox" id="switch">
+                <label for="switch" class="switch-label">
+                    <i class="switch-icons icon-sun"></i>
+                    <i class="switch-icons icon-moon"></i>
+                </label>
+            </div>
+
             <!-- user acc -->
             <div class="user-acc_wrp">
                 <i class="icon-user-acc"></i>
@@ -65,5 +74,6 @@
             </section>
     </main>
 
+<script  src="./switch.js"></script>
 </body>
 </html>
